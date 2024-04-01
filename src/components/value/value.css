@@ -1,0 +1,91 @@
+.img-contain{
+    border: 8px solid rgb(232 232 232 /93%);
+   
+}
+.v-content{
+     justify-content:space-between;
+    flex: 1
+    
+    
+}
+.v-right{
+    gap: 0.5rem;
+    
+}
+.faida{
+     display: flex;
+    flex-direction: column;
+  
+    
+
+}
+.munafa{
+    padding: 1rem 3.2rem;
+    margin-top: 20px;
+    border: 0.8px solid rgba(128,128,1280.14);
+    background-color: white;
+   
+}
+.munafa:hover{
+    background-color: rgb(123, 123, 251);
+    color: white;
+}
+@media (max-width: 1550px) {
+    .munafa{
+        margin-right: 45px;
+        padding: 0.5rem 2rem;
+        margin-top: 12px;
+        border: 0.8px solid rgba(128,128,1280.14);
+        background-color: white;
+    }
+  }
+@media (max-width: 1150px) {
+    .munafa {
+        font-size: 28px;
+        margin-right: 101px;
+        
+    }
+  }
+@media (max-width: 1100px) {
+    .munafa {
+        font-size: 20px;
+        margin-right: 135px;
+        
+    }
+  }
+@media (max-width: 1000px) {
+    .munafa {
+        font-size: 15px;
+        margin-right: 80px;
+        
+    }
+  }
+@media (max-width: 900px) {
+    .img-contain{
+    margin-left: 100px;
+
+   }
+   .munafa {
+    font-size: 20px;
+    margin-left: 80px;
+    
+}
+  }
+@media (max-width: 650px) {
+    .img-contain{
+    margin-left: 50px;
+
+   }
+  }
+@media (max-width: 520px) {
+    .img-contain{
+    margin-left: 20px;
+
+   }
+   .munafa {
+    padding: 0 3px;
+    font-size: 13px;
+    margin-left: 80px;
+    
+}
+  }

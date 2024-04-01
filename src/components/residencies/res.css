@@ -1,0 +1,110 @@
+
+.all{
+  padding: 1rem 1rem;
+  display: flex;
+  margin-left: 5rem;
+  
+}
+.value{
+  padding-bottom: 40px;
+}
+
+
+
+
+.prop>img {
+    width: 300px;
+    
+    transition: transform 0.3s ease;
+  }
+  
+  .prop>img:hover {
+    transform: scale(1.2);
+  }
+  .paisa{
+     padding: .7rem ;
+     font-size: 30px;
+    
+  }
+
+  @media (max-width: 550px) {
+    
+.all{
+   flex-wrap: wrap;
+  
+}
+  }
+
+  @media (max-width: 1450px) {
+    
+    .prop>img {
+      width: 250px;
+      
+      
+    }
+  }
+  @media (max-width: 1150px) {
+    
+    .prop>img {
+      width: 180px;
+      
+      
+    }
+  }
+  @media (max-width: 1150px) {
+    
+    .prop>img {
+      width: 600px;
+      
+      
+    }
+    .all{
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 750px) {
+    
+    .prop>img {
+      width: 500px;
+   
+    }
+    
+  }
+  @media (max-width:600px) {
+    
+    .prop>img {
+      width: 400px;
+   
+    }
+    
+  }
+  @media (max-width:550px) {
+    
+    .prop>img {
+      width: 300px;
+   
+    }
+    
+  }
+  @media (max-width: 450px) {
+    
+    .prop>img {
+      width: 250px;
+      
+      
+    }
+    .all{
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 400px) {
+    
+    .prop>img {
+      width: 200px;
+      
+      
+    }
+    .all{
+      flex-wrap: wrap;
+    }
+  }
